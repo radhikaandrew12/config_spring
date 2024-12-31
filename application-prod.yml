@@ -1,3 +1,15 @@
 build: 
   version: 11.0
   name: 'prod profile v2'
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - info
+        - refresh
+
+encrypt:
+  key: qqFlAmCyl2SVIj0B0TpKZo5ErOYVURO0
